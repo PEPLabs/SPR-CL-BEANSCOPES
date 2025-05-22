@@ -66,7 +66,7 @@ public class Application {
         ScopedBean b4 = (ScopedBean) applicationContext.getBean("labBean");
 
         System.out.println("You'll need to scope labBean such that b3 and b4 are different objects.");
-        System.out.println("Let's test it with ==, are b1 and b2 the same object?");
+        System.out.println("Let's test it with ==, are b3 and b4 the same object?");
         if(b3 == b4){
             System.out.println("failure: b3 and b4 are the same object.");
         }else{
